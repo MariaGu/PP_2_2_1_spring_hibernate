@@ -16,8 +16,8 @@ public class Car {
     @Column(name = "series")
     private int series;
 
-//    @OneToOne
-//    private User user;
+    @OneToOne
+    private User user;
 
     public Car() {
     }
